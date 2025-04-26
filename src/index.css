@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  /* Background colors */
+  --background-main: #0d0d0d;
+  --background-card-hover: #1a1a1a;
+
+  /* Primary and secondary colors */
+  --color-primary: #ff4500; /* Explosive Orange */
+  --color-secondary: #ffd700; /* Bright Gold */
+
+  /* Text colors */
+  --text-main: #ffffff; /* White */
+  --text-subtitle: #cccccc; /* Light Gray */
+
+  /* Border color */
+  --border-color: #333333; /* Dark Gray */
+
+  /* Link colors */
+  --link-default: #ff4500; /* Explosive Orange */
+  --link-hover: #ffa500; /* Lighter Orange */
+}
+
+body {
+  background-color: var(--background-main);
+  -webkit-font-smoothing: antialiased;
+  color: var(--text-main);
+}
+
+:focus {
+  outline: 0;
+  box-shadow: 0 0 0 1px #3294f8;
+}
+
+body,
+input,
+textarea,
+button {
+  font: 400 1rem Poppins, sans-serif;
+}
