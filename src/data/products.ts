@@ -2,7 +2,7 @@ export const bestProducts = [
     {
       id: 1,
       name: "Sky Blaster",
-      image: "public/images/sky-blaster.jpg",
+      image: "/images/sky-blaster.jpg",
       price: "$29.99",
     },
     {
