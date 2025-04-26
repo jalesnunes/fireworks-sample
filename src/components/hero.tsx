@@ -3,7 +3,7 @@ export function Hero() {
       <section className="relative w-full h-[60vh] sm:h-[70vh] md:h-[80vh]">
         {/* Vídeo de fundo */}
         <video
-          src="public/videos/fireworkvideo.mp4"
+          src="/videos/fireworkvideo.mp4"
           autoPlay
           muted
           loop
