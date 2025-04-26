@@ -38,3 +38,9 @@ textarea,
 button {
   font: 400 1rem Poppins, sans-serif;
 }
+
+@layer base {
+  .font-bebas {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+}
