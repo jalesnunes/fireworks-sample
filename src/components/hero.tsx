@@ -12,7 +12,7 @@ export function Hero() {
   
         {/* Texto sobre o vídeo */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-4">
-          <h1 className="font-bebas text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-4 mt-8">
+          <h1 className="font-bebas text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-4 mt-14">
             THE BEST FIREWORKS THAT YOU CAN FIND IN UTAH
           </h1>
           <h2 className="font-bebas text-8xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl mb-6">
@@ -20,9 +20,15 @@ export function Hero() {
           </h2>
           <a
             href="#location"
+            className="text-xl sm:text-2xl md:text-3xl font-semibold text-[var(--link-default)] hover:text-[var(--link-hover)] mb-6"
+          >
+            Find us
+          </a>
+          <a
+            href="#location"
             className="text-xl sm:text-2xl md:text-3xl font-semibold text-[var(--link-default)] hover:text-[var(--link-hover)]"
           >
-            Find a Location
+            Contact us
           </a>
         </div>
       </section>
