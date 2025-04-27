@@ -1,6 +1,6 @@
 export function Hero() {
     return (
-      <section className="relative w-full h-[60vh] sm:h-[70vh] md:h-[80vh] pt-24">
+      <section className="relative w-full h-[60vh] sm:h-[70vh] md:h-[80vh] mt-24">
         {/* Vídeo de fundo */}
         <video
           src="/videos/fireworkvideo.mp4"
