@@ -16,7 +16,7 @@ export function BestProductsCarousel() {
         <Carousel className="w-full">
           <CarouselContent>
             {bestProducts.map((product) => (
-              <CarouselItem key={product.id} className="flex justify-center">
+              <CarouselItem key={product.id} className="flex justify-center md:basis-1/2 lg:basis-1/3">
                 <div className="w-[300px] h-[400px] bg-neutral-800 rounded-2xl overflow-hidden shadow-lg flex flex-col items-center justify-center text-center p-6">
                   <img
                     src={product.image}

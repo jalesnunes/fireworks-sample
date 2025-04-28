@@ -18,7 +18,7 @@ export function Header() {
 
           <SheetContent
             side="right"
-            className="h-screen w-64 bg-black border-none p-6 flex flex-col items-center justify-start fixed right-0 top-0 z-50"
+            className="h-screen w-84 bg-black border-none p-6 flex flex-col items-center justify-start fixed right-0 top-0 z-50"
           >
             <nav className="flex flex-col gap-6 mt-10">
               <a
@@ -31,13 +31,13 @@ export function Header() {
                 href="#sobre"
                 className="text-4xl font-semibold text-white hover:text-neutral-300"
               >
-                Sobre
+                About
               </a>
               <a
                 href="#contato"
                 className="text-4xl font-semibold text-white hover:text-neutral-300"
               >
-                Contato
+                Contact us
               </a>
             </nav>
           </SheetContent>
@@ -56,13 +56,13 @@ export function Header() {
           href="#sobre"
           className="text-xl font-semibold text-white hover:text-neutral-300"
         >
-          Sobre
+          About
         </a>
         <a
           href="#contato"
           className="text-xl font-semibold text-white hover:text-neutral-300"
         >
-          Contato
+          Contact us
         </a>
       </div>
     </header>
